@@ -1,11 +1,13 @@
 {
     "version": 3,
-    "mappings": "AGAA,AAAA,KAAK,AAAC,CACL,UAAU,CAAE,UAAU,CACtB,AAED,AAAA,CAAC,CACD,CAAC,AAAA,QAAQ,CACT,CAAC,AAAA,OAAO,AAAC,CACR,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,OAAO,CACnB",
+    "mappings": "AGAA,AAAA,KAAK,AAAC,CACL,UAAU,CAAE,UAAU,CACtB,SAAS,CFFE,KAAK,CEGhB,WAAW,CFFE,SAAS,CAAE,UAAU,CEGlC,AAED,AAAA,IAAI,AAAC,CACJ,gBAAgB,CFKa,OAAkB,CEJ/C,AAED,AAAA,CAAC,CACD,CAAC,AAAA,QAAQ,CACT,CAAC,AAAA,OAAO,AAAC,CACR,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,OAAO,CACnB,AChBD,AAAA,OAAO,AAAC,CACP,MAAM,CAAE,yBAAyB,CACjC,gBAAgB,CAAE,2CAA2C,CAC7D,gBAAgB,CHKU,OAAkB,CGJ5C,ACJD,AAAA,KAAK,AAAC,CACL,UAAU,CAAE,IAAI,CAChB,OAAO,CAAE,GAAG,CACZ",
     "sources": [
         "../../sass/styles.scss",
         "../../sass/abstracts/_variables.scss",
         "../../sass/abstracts/_mixins.scss",
-        "../../sass/base/_reset.scss"
+        "../../sass/base/_reset.scss",
+        "../../sass/components/_header.scss",
+        "../../sass/components/_main.scss"
     ],
     "names": [],
     "file": "styles.css"

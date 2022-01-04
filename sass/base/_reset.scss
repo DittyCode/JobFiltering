@@ -1,5 +1,11 @@
 :root {
 	box-sizing: border-box;
+	font-size: $font-size;
+	font-family: $font-family;
+}
+
+body {
+	background-color: map-get($neutral-colors, neutralLightGrayishCyanBG);
 }
 
 *,

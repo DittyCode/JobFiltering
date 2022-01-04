@@ -1,2 +1,2 @@
-:root{-webkit-box-sizing:border-box;box-sizing:border-box}*,*::before,*::after{margin:0;padding:0;-webkit-box-sizing:inherit;box-sizing:inherit}
+:root{-webkit-box-sizing:border-box;box-sizing:border-box;font-size:62.5%;font-family:"Spartan",sans-serif}body{background-color:#effafa}*,*::before,*::after{margin:0;padding:0;-webkit-box-sizing:inherit;box-sizing:inherit}.header{height:clamp(100px, 15vh, 150px);background-image:url("./../../images/bg-header-desktop.svg");background-color:#5ba4a4}.main{min-height:85vh;padding:5em}
 /*# sourceMappingURL=styles.css.map */

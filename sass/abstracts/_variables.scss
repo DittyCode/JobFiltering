@@ -1,0 +1,17 @@
+$font-size: 62.5%;
+$font-family: 'Spartan', sans-serif;
+$font-weights: (
+	fw400: '400',
+	fw700: '700',
+);
+
+$primary-colors: (
+	'primaryDesaturatedDark': hsl(180, 29%, 50%),
+);
+
+$neutral-colors: (
+	'neutralLightGrayishCyanBG': hsl(180, 52%, 96%),
+	'neutralLightGrayishCyanFilter': hsl(180, 31%, 95%),
+	'neutralDarkGrayishCyan': hsl(180, 8%, 52%),
+	'neutralVeryDarkGrayishCyan': hsl(180, 14%, 20%),
+);
