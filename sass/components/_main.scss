@@ -1,4 +1,5 @@
 .main {
+	@include flex-mother(column, center, space-around);
 	min-height: 85vh;
 	padding: 5em;
 }

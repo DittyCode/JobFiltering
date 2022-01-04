@@ -1,0 +1,45 @@
+.offert {
+	@include flex-mother();
+	height: 150px;
+	width: 80%;
+	background-color: map-get($neutral-colors, neutralLightGrayishCyanFilter);
+
+	&__description {
+		display: flex;
+		width: 50%;
+	}
+	&__informations {
+		@include flex-mother(column, flex-start, space-between);
+		width: 100%;
+		margin-left: 5em;
+		& > * {
+			width: 80%;
+		}
+	}
+	&__title {
+		color: map-get($primary-colors, primaryDesaturatedDark);
+	}
+	&__job {
+		font-size: 1.5rem;
+		color: map-get($neutral-colors, neutralVeryDarkGrayishCyan);
+	}
+	&__heading {
+		@include flex-mother();
+		justify-content: flex-start;
+	}
+	&__order {
+		margin: 0 2em;
+	}
+	&__skills {
+		@include flex-mother();
+	}
+	&__skill {
+		margin: 0 2em;
+	}
+	&__list {
+		@include flex-mother(row, center, space-between);
+	}
+	&__skills {
+		width: 50%;
+	}
+}
